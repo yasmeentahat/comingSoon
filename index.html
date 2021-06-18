@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="desription" content="Mobile Application Lnading Page">
+    <title>Mobile Application Lnading Page</title>
+    <script src="./js/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./assest/jquery.countdown/js/jquery.plugin.min.js"></script>
+    <script src="./assest/jquery.countdown/js/jquery.countdown.min.js"></script>
+    <script src="./assest/jquery.countdown/js/jquery.countdown-ar.js"></script>
+    <script src="./js/js.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://kit.fontawesome.com/695389b5b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="text-center">
+        <div class="brand animate__animated animate__bounceIn">
+            <div class="logo">
+                <img src="image/icon.png" alt="شعار التطبيق" />
+            </div>
+            <div class="slogn">
+                <img src="image/text-login.png" alt="شعار التطبيق" />
+            </div>
+        </div>
+        <div class="page-heading animate__animated animate__fadeInUp">
+            <h1>
+                أنتظروا إنطلاق التطبيق قريباً
+            </h1>
+            <p>
+                هو ببساطة نص شكلي ( بمعنى أن الغاية هي الشكل وليس المحتوى ) ويُستخدم
+                في صناعات المطابع
+            </p>
+        </div>
+        
+        <div class="counter animate__animated animate__fadeInDown">
+            <div id="defaultCountdown">
+            </div>
+        </div>
+        
+        <div class="send-notification animate__animated animate__zoomIn">
+            <p>
+                هل تريد ارسال إشعار فور الانطلاق؟
+            </p>
+            <form action="#" method="post" name="myForm">
+                <div class="form-group">
+                    <div class="input-group input-group-lg">
+                        <input type="email" class="form-control" placeholder="بريدك الالكترونى" name="email"   required>
+                        <span class="input-group-btn">
+                            <button class="btn Form-Submit" type="submit" name="submit">
+                                <img src="./image/icons/send1.png" alt="send">
+                            </button>
+                        </span>
+                        <div class="alert alert-danger" role="alert">
+                            <strong>عذراً! </strong> لقد قمت بإدخال بريد الكتروني خاطئ.
+                        </div>
+                        <div class="alert alert-success" role="alert">
+                            <strong>تهانينا، </strong> لقد تم ادخال بريدك الالكتروني بنجاح.
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </header>
+    <section class="features">
+        <div class="container">
+            <h2>مميزات التطبيق</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="media">
+                        <img src="./image/icons/prush.png" alt="ايقونة التصميم العصري">
+                        <div class="media-body">
+                            <h5>تصميمات انيقة وعصرية </h5>
+                            <p>هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="media">
+                        <img src="./image/icons/photo.png" alt="ايقونة التصميم العصري">
+                        <div class="media-body">
+                            <h5>يوجد صور لتوضيح تفاصيل اللعبة</h5>
+                            <p>هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى ) ويُستخدم في صناعات المطابع</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="media">
+                        <img src="./image/icons/phone.png" alt="ايقونة التصميم العصري">
+                        <div class="media-body">
+                            <h5>اللعبة متوفرة بوضع الشاشة الممتلئ</h5>
+                            <p>هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                        <div class="media">
+                        <img src="./image/icons/fork.png" alt="ايقونة التصميم العصري">
+                        <div class="media-body">
+                            <h5>يمكنك مشاركة اللعبة كمجموعة</h5>
+                            <p>هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                        <div class="media">
+                        <img src="./image/icons/mail.png" alt="ايقونة التصميم العصري">
+                        <div class="media-body">
+                            <h5>يمكنك ارسال الهدايا لأصدقائك عبر اللعبة</h5>
+                            <p>هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                        <div class="media">
+                        <img src="./image/icons/person-plus.png" alt="ايقونة التصميم العصري">
+                        <div class="media-body">
+                            <h5>أضافة اصدقاء جدد لاستخدام اللعبة</h5>
+                            <p>هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="top-footer text-center">
+            <div class="overlay">
+                <h3>قم باضافة بريدك الألكتروني ليصلك إشعار فور الأنطلاق</h3>
+                <form action="#" method="post" name="myForm2">
+                    <div class="form-group">
+                        <div class="input-group input-group-lg">
+                            <input type="email" class="form-control" placeholder="بريدك الالكترونى" name="email2"   required>
+                            <span class="input-group-btn">
+                                <button class="btn Form-Submit" type="submit" name="submit">
+                                    <img src="./image/icons/send.png" alt="send">
+                                </button>
+                            </span>
+                            <div class="alert alert-danger" role="alert">
+                                <strong>عذراً! </strong> لقد قمت بإدخال بريد الكتروني خاطئ.
+                            </div>
+                            <div class="alert alert-success" role="alert">
+                                <strong>تهانينا، </strong> لقد تم ادخال بريدك الالكتروني بنجاح.
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="contact text-center">
+            <div class="overlay">
+                <h3>
+                    تابعنا على القنوات الاجتماعية
+                </h3>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="#" class="facebook">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="twitter">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="linkedin">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="instagram">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+                <hr/>
+                <p>
+                    <a href="mailto:email@email.com?Subject=Hello" target="_top">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        email@email.com
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
